@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,13 +7,14 @@
 
 		<title>diegoGimenez</title>
 
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
 		<link rel="stylesheet" href="css/font-awesome.css" />
 		<link rel="stylesheet" href="css/font-awesome.min.css" />
 		<link rel="stylesheet" href="css/social-buttons.css" />
-		<link rel="stylesheet" href="css/stylesheet.css" />
 		<link rel="stylesheet" href="css/common.css" />
+		
+		<script type="text/javascript" src="js/skype-uri.js"></script>
 		
 		<link rel="shortcut icon" href="img/favicon.ico" />
 
@@ -24,10 +25,24 @@
 </head>
 
 <body>
-		<nav class="navbar navbar-inverse" style="background-image: linear-gradient(to bottom, #93C4D3 0px, #93C4D3 100%); background-color:#F0DB4F; border-color:#93C4D3;">
+		<nav class="navbar navbar-inverse">
 			<div class="container">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="index.php" style="color:#FFFFFF;">diegoGimenez</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+						<span class="sr-only">Navegação</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">diegoGimenez</a>
+				</div>
+
+				<div>
+					<ul class="nav navbar-nav navbar-right">
+						<!--li><a href="curriculo.html">Currículo</a></li>
+						<li><a href="portfolio.html">Portfólio</a></li>
+						<li><a href="contato.html">Contato</a></li-->
+					</ul>						
 				</div>
 			</div>
 		</nav>
@@ -51,19 +66,32 @@
 <!-- footer -->
 			<hr/>
 			<footer>
-				<p><p>Copyright 2015 diegoGimenez™</p>
-				<a href="//twitter.com/diegobGimenez" target="new" class="btn btn-twitter btn-small"><i class="fa fa-twitter"></i></a>
-				<a href="//www.facebook.com/diegobgimenez" target="new" class="btn btn-facebook"><i class="fa fa-facebook"></i></a>
-				<a href="//diegoGimenez.github.io" target="new" class="btn btn-github"><i class="fa fa-github"></i></a>
-				<a href="//www.linkedin.com/pub/diego-b-gimenez/28/b27/b83" target="new" class="btn btn-linkedin"><i class="fa fa-linkedin"></i></a>
-				<a href="//google.com/+DiiHGimenez" target="new" class="btn btn-google-plus"><i class="fa fa-google-plus"></i></a>
-				<a href="//pt.foursquare.com/diegobgimenez" target="new" class="btn btn-foursquare"><i class="fa fa-foursquare"></i></a>
-				<a href="//www.youtube.com/user/pkbtu" target="new" class="btn btn-youtube"><i class="fa fa-youtube"></i></a>
+				<p>Copyright 2015 diegoGimenez™</p>
+				<div>
+					<a href="//twitter.com/diegobGimenez" target="new" class="btn btn-twitter"><i class="fa fa-twitter"></i></a>
+					<a href="//www.facebook.com/diegobgimenez" target="new" class="btn btn-facebook"><i class="fa fa-facebook"></i></a>
+					<a href="//diegoGimenez.github.io" target="new" class="btn btn-github"><i class="fa fa-github"></i></a>
+					<a href="//www.linkedin.com/pub/diego-b-gimenez/28/b27/b83" target="new" class="btn btn-linkedin"><i class="fa fa-linkedin"></i></a>
+					<a href="//google.com/+DiiHGimenez" target="new" class="btn btn-google-plus"><i class="fa fa-google-plus"></i></a>
+					<a href="//pt.foursquare.com/diegobgimenez" target="new" class="btn btn-foursquare"><i class="fa fa-foursquare"></i></a>
+					<a href="//www.youtube.com/user/pkbtu" target="new" class="btn btn-youtube"><i class="fa fa-youtube"></i></a>
+
+					<div id="SkypeButton_Call_diegobgimenez_1">
+					  <script type="text/javascript">
+						Skype.ui({
+						  "name": "chat",
+						  "element": "SkypeButton_Call_diegobgimenez_1",
+						  "participants": ["diegobgimenez"],
+						  "imageSize": 24
+						});
+					  </script>
+					</div>
+				</div>
 			</footer>
 		</div> <!-- fim container -->
 		
-		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/common.js"></script>
 </body>
 </html>
